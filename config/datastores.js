@@ -51,6 +51,23 @@ module.exports.datastores = {
     // adapter: 'sails-mysql',
     // url: 'mysql://user:password@host:port/database',
 
+  /***************************************************************************
+  *                                                                          *
+  * MongoDB is the leading NoSQL database.                                   *
+  * http://en.wikipedia.org/wiki/MongoDB                                     *
+  *                                                                          *
+  * Run: npm install sails-mongo                                             *
+  *                                                                          *
+  ***************************************************************************/
+    // someMongodbServer: {
+    adapter: 'sails-mongo',
+    host: 'localhost',
+    port: 27017,
+    //   user: 'username', //optional
+    //   password: 'password', //optional
+    database: 'nodesproject' //optional
+    // },
+
   },
 
 

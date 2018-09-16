@@ -5,11 +5,25 @@
   "description": "a Sails application",
   "keywords": [],
   "dependencies": {
+    "@sailshq/lodash": "^3.10.3",
+    "async": "^2.0.1",
+    "bcrypt": "^3.0.0",
+    "farmhash": "^2.1.0",
+    "include-all": "^4.0.3",
+    "jsonwebtoken": "^8.3.0",
+    "lodash": "^4.17.11",
+    "mailgun-js": "^0.20.0",
+    "moment": "^2.22.2",
+    "password-validator": "^4.1.1",
+    "rc": "^1.2.8",
     "sails": "^1.0.2",
+    "sails-disk": "^1.0.1",
     "sails-hook-orm": "^2.0.0-16",
     "sails-hook-sockets": "^1.4.0",
-    "@sailshq/lodash": "^3.10.3",
-    "async": "2.0.1"
+    "sails-mongo": "^1.0.1",
+    "shortid": "^2.2.13",
+    "uuid": "^3.3.2",
+    "validator": "^10.7.1"
   },
   "devDependencies": {
     "@sailshq/eslint": "^4.19.3"

@@ -18,5 +18,14 @@ module.exports.policies = {
   ***************************************************************************/
 
   // '*': true,
+  '*': ['jwtAuth'],
+
+  'UserController': {
+    'create': true,
+    'login': true,
+    'apikey': true,
+    'forgotPassword': true,
+    'resetPasswordByResetToken': true
+  },
 
 };
